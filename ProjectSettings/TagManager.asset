@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Package
   - Rebel
+  - Boost
+  - Bump
   layers:
   - Default
   - TransparentFX

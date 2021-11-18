@@ -15,10 +15,6 @@ public class Delivery : MonoBehaviour
 
     bool hasPackage;
     [SerializeField] float delay = 1f;
-
-    void OnCollisionEnter2D(Collision2D other) {
-        Debug.Log("I've McFallen!");
-    }
     
     void OnTriggerEnter2D(Collider2D other) {
         if(other.tag == "Package" && !hasPackage){
